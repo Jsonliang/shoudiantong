@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:id="@+id/bglayout"
+    android:longClickable="true"
+     >
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exfun1"
+        android:layout_marginTop="5dp"
+        android:textColor="#30D2FF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/titletv"
+    />
+
+ <LinearLayout
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_alignParentBottom="true"
+		>
+       <LinearLayout
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="horizontal"
+		 android:layout_marginBottom="2dp"
+		>
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="2dp"
+        android:id="@+id/fun1_btn"
+        android:layout_weight="1"
+    />
+                
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="2dp"
+        android:id="@+id/fun2_btn"
+        android:layout_weight="1"
+    />
+                          
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="2dp"
+        android:id="@+id/fun3_btn"
+        android:layout_weight="1"
+    />
+                                    
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="2dp"
+        android:id="@+id/fun4_btn"
+        android:layout_weight="1"
+    />
+	
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="2dp"
+        android:id="@+id/fun5_btn"
+        android:layout_weight="1"
+    />
+	
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="2dp"
+        android:id="@+id/fun6_btn"
+        android:layout_weight="1"
+    />
+	
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="2dp"
+        android:id="@+id/fun7_btn"
+        android:layout_weight="1"
+    />
+	
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="2dp"
+        android:id="@+id/fun8_btn"
+        android:layout_weight="1"
+    />
+       </LinearLayout>
+       
+       <LinearLayout
+         	android:orientation="vertical"
+		 	android:layout_height="wrap_content"
+		 	android:layout_width="fill_parent"
+		 	android:id="@+id/admainLayout"
+		 	android:gravity="center"
+		/>
+       </LinearLayout>
+</RelativeLayout>

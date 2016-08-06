@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">懐中電灯 Free</string>
+    <string name="autoopen">オートオープンLEDライト</string>
+    <string name="exfun1">画面の光</string>
+    <string name="exfun2">警告灯</string>
+    <string name="exfun3">警察の車のライト</string>
+    <string name="exfun4">SOS遭難信号</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flashlightfree"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+>
+
+        <receiver android:name="com.flashlightfree.WidgetProvider">  
+            <intent-filter>  
+                <action android:name="com.flashlightfree.action.widget.click"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />  
+            </intent-filter>  
+            <meta-data android:name="android.appwidget.provider"  
+                android:resource="@xml/widget" />  
+        </receiver>
+        
+        <activity
+            android:name="com.flashlightfree.Main"
+            android:screenOrientation="portrait"            
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.flashlightfree.Fun1"/>
+        
+                <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.flashlightfree.Fun2"/>
+                
+                <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.flashlightfree.Fun3"/>
+                
+                <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.flashlightfree.Fun4"/>
+            
+                
+                                <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.flashlightfree.Recommend"/>
+            
+        <activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+
+</manifest>

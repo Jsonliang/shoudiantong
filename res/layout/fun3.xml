@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+>
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+		android:id="@+id/warmingtv"
+    />
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exfun3"
+        android:layout_marginTop="5dp"
+        android:textColor="#30D2FF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/titletv"
+    />
+
+<LinearLayout
+         	android:orientation="vertical"
+		 	android:layout_height="wrap_content"
+		 	android:layout_width="fill_parent"
+		 	android:id="@+id/admainLayout"
+		 	android:gravity="center"
+		 	android:layout_alignParentBottom="true"
+		/>
+</RelativeLayout>

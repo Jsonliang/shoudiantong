@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手电筒 Free</string>
+    <string name="autoopen">自动开启LED灯光</string>
+    <string name="exfun1">屏幕灯光</string>
+    <string name="exfun2">警示灯</string>
+    <string name="exfun3">警灯</string>
+    <string name="exfun4">SOS求救信号</string>
+
+</resources>

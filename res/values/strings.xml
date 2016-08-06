@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flashlight Free</string>
+    <string name="autoopen">Auto open LED flashlight</string>
+    <string name="exfun1">Screen Light</string>
+    <string name="exfun2">Warning Light</string>
+    <string name="exfun3">Police Light</string>
+    <string name="exfun4">SOS Light</string>
+
+</resources>

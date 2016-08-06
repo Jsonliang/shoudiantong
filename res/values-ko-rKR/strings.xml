@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">회중전등 Free</string>
+    <string name="autoopen">열려있는 자동차 LED 플래쉬</string>
+    <string name="exfun1">화면 조명</string>
+    <string name="exfun2">경고등</string>
+    <string name="exfun3">경찰은 자동차 조명</string>
+    <string name="exfun4">SOS조난 신호</string>
+
+</resources>
